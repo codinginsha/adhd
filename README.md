@@ -352,26 +352,6 @@ Possible enhancements (with real data):
 
 ---
 
-## File Structure
-```
-demo_project/
-├── README.md                                  # This file
-├── requirements.txt                           # Python dependencies
-├── generate_synthetic_behavioral_features.py  # Video feature generator
-├── generate_synthetic_wearable.py             # Sensor data generator
-├── train_attention_model.py                   # ML model training
-├── rl_adaptive_demo.py                        # RL agent simulation
-├── demo_run.sh                                # End-to-end pipeline
-├── Clinical_Data_Ethics_Explanation.pdf       # Ethics documentation
-└── (outputs generated at runtime)
-    ├── behavioral_features.csv
-    ├── wearable_timeseries.csv
-    ├── attention_model.joblib
-    └── rl_agent_summary.csv
-```
-
----
-
 ## Author Notes
 
 This project demonstrates:
@@ -399,5 +379,3 @@ The synthetic nature is **intentional and principled**—not a limitation, but a
 This is a demonstration project for educational and portfolio purposes. All code is provided as-is for non-commercial use.
 
 For questions or extensions, refer to the inline code comments and docstrings.
-#   a d h d  
- 
